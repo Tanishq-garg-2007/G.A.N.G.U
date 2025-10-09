@@ -1,8 +1,8 @@
 from crewai.tools import BaseTool
 from typing import Type
 from pydantic import BaseModel, Field
-from browser_use import Browser, Agent, ChatGoogle
-from langchain_google_genai import ChatGoogleGenerativeAI
+from browser_use import Browser, Agent
+from browser_use.llm.google import ChatGoogle
 import asyncio
 import os
 from dotenv import load_dotenv
@@ -11,62 +11,79 @@ load_dotenv()
 
 class MyCustomToolInput(BaseModel):
     """Input schema for MyCustomTool."""
-    argument: str = Field(..., description="The exact detail of the task assigned to the agent to do with proper instruction to navigate to the browser and search for desired product with urls of different platform mentioned in the task")
+    argument: str = Field(..., description="The exact names of the medicines to find on different platforms")
 
 class MyCustomTool(BaseTool):
     name: str = "Gather Medicine Data"
-    description: str = "This tool is used to gather medicine data like price, offers, availability etc. from different pharmacy websites"
+    description: str = "This tool gathers medicine data like price, offers, and availability from pharmacy websites."
     args_schema: Type[BaseModel] = MyCustomToolInput
-    
+
     def _run(self, argument: str) -> str:
-        """Custom function that uses browser_use library"""
+        """Entry point for synchronous execution."""
         return asyncio.run(self._async_run(argument))
-    
+
     async def _async_run(self, argument: str) -> str:
-        """Async implementation of the browser automation"""
+        """Async implementation of browser automation."""
         browser = None
         try:
             browser = Browser(
                 executable_path='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
-                minimum_wait_page_load_time=2.0,
-                wait_for_network_idle_page_load_time=1.0,
                 headless=False
             )
-            
-            agent = Agent(
-                task=argument,
-                browser=browser,
-                llm=ChatGoogle(model='gemini-flash-latest',api_key="AIzaSyD3cxOBBAjaPd9k-okQWLk_VW16AX1V5ZM")
-            )
-            
-            result = await agent.run()
-            print(result.urls())
-            print(argument)
-            print(f"Has errors: {result.has_errors()}")
-            print(f"Number of steps: {result.number_of_steps()}")
-            print(result.errors())
-            extracted = result.extracted_content()
-            print("Extracted content:", extracted)
 
-            if result.is_done():
-                final_result = result.final_result() 
-                if final_result:
-                    return str(final_result)
-                else:
-                    return "Task completed but no data extracted"
+            await browser.start()
+
+            task = f"""Give me the data of the medicines in the list: {argument}, on these sites: 1mg and PharmEasy.
+
+                        Follow these steps:
+                        1. Use go_to_url action to go to https://www.1mg.com
+                        - Search for medicines: {argument}
+                        - Extract product name, price, delivery info, and offers of the first product that appear after the search
+
+                        2. Use go_to_url action to go to https://www.pharmeasy.in
+                        - Search for medicines: {argument}
+                        - Extract product name, price, delivery info, and offers of the first product that appear after the search
+
+                        3. Compile a brief report with:
+                        - A comparison table showing prices on all platforms in markdown format.
+
+                        IMPORTANT:
+                        - Always use go_to_url action for navigation, not generic instructions.
+                        - Use new tabs in the existing browser window.
+                        - Do not actually complete any purchase.
+                    """
+
+            llm = ChatGoogle(
+                model='gemini-flash-latest',
+                api_key=os.getenv("GOOGLE_API_KEY")  
+            )
+
+            agent = Agent(
+                task=task,
+                browser=browser,
+                llm=llm
+            )
+
+            history = await agent.run()
+
+            print("Visited URLs:", history.urls())
+            print("Has errors:", history.has_errors())
+            print("Steps taken:", history.number_of_steps())
+            print("Errors:", history.errors())
+
+            if history.is_done():
+                final_result = history.final_result()
+                return str(final_result) if final_result else "Task completed but no data extracted"
             else:
-                extracted = result.extracted_content()
-                if extracted:
-                    return "\n".join(str(item) for item in extracted if item)
-                else:
-                    return f"Task incomplete after {result.number_of_steps()} steps"
-                    
+                extracted = history.extracted_content()
+                return "\n".join(str(item) for item in extracted if item) if extracted else f"Task incomplete after {history.number_of_steps()} steps"
+
         except Exception as e:
             return f"Error occurred during browser automation: {str(e)}"
-        
+
         finally:
             if browser:
                 try:
-                    await browser.close()
-                except:
+                    await browser.stop() 
+                except Exception:
                     pass
