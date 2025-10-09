@@ -9,6 +9,8 @@ dependencies = [
     "browser-use>=0.7.9",
     "crewai[tools]>=0.201.1,<1.0.0",
     "langchain-google-genai>=2.1.12",
+    "pillow>=11.3.0",
+    "pytesseract>=0.3.13",
     "scipy>=1.15.3",
     "sounddevice>=0.5.2",
 ]

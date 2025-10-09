@@ -1,22 +1,21 @@
-# Medicine Price and Availability Comparison
+# Medicine Price Comparison Report
 
-## Product: Paracetamol (Acetaminophen)
+This report compares the price and availability of "TAB. DEMO MEDICINE 1" and "CAP, DEMO MEDICINE 2" on 1mg and PharmEasy.
 
-| Platform   | Product Name                                  | Price (₹) | Delivery Fee (₹) | Delivery Timeline | Offers/Discounts                               |
-| ---------- | --------------------------------------------- | --------- | ---------------- | ----------------- | ---------------------------------------------- |
-| 1mg        | Dolo 650 Tablet                              | 31        | 35               | 2-3 days          | Up to 5% off on select products                |
-| PharmEasy  | Dolo 650 Tablet                              | 30        | 35               | 1-2 days          | Up to 20% off on select products, check coupons |
+**Medicine 1: TAB. DEMO MEDICINE 1**
 
-## Product: Oral Rehydration Solution (ORS)
+| Platform  | Product Name          | Price (INR) | Delivery Info        | Offers/Discounts |
+| --------- | --------------------- | ----------- | ---------------------- | ---------------- |
+| 1mg       | Not Available         | N/A         | N/A                    | N/A              |
+| PharmEasy | Not Available         | N/A         | N/A                    | N/A              |
 
-| Platform   | Product Name                                  | Price (₹) | Delivery Fee (₹) | Delivery Timeline | Offers/Discounts                               |
-| ---------- | --------------------------------------------- | --------- | ---------------- | ----------------- | ---------------------------------------------- |
-| 1mg        | Electral Powder                              | 22        | 35               | 2-3 days          | Up to 5% off on select products                |
-| PharmEasy  | Electral Powder                              | 21        | 35               | 1-2 days          | Up to 20% off on select products, check coupons |
+**Medicine 2: CAP, DEMO MEDICINE 2**
 
-**Disclaimer:**
+| Platform  | Product Name          | Price (INR) | Delivery Info        | Offers/Discounts |
+| --------- | --------------------- | ----------- | ---------------------- | ---------------- |
+| 1mg       | Not Available         | N/A         | N/A                    | N/A              |
+| PharmEasy | Not Available         | N/A         | N/A                    | N/A              |
 
-*   Prices and availability are subject to change. Please verify the information on the respective platform before placing an order.
-*   Delivery timelines are estimates and may vary based on location and other factors.
-*   Offers and discounts are subject to terms and conditions.
-*   Delivery fee may vary based on order value.
+**Summary:**
+
+Unfortunately, both "TAB. DEMO MEDICINE 1" and "CAP, DEMO MEDICINE 2" were not found on 1mg and PharmEasy during this search. Therefore, pricing, delivery, and offer information are not available (N/A). It's possible these are not commonly available medicines or are listed under a different name. Further investigation with alternative names or formulations may be required.

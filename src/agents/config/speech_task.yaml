@@ -14,26 +14,25 @@ medical_consultation:
 
 gathering_data:
   description: >
-    Give me the data of the medicine on these sites 1mg,PharmEasy provided by the previous task medicine list
-    
+    Give me the data of the medicines in the list from the previous task, on these sites: 1mg and PharmEasy.
+
     Follow these steps:
-    
-    1. Open a new tab and go to 1mg (https://www.1mg.com):
-       - Search for all medicine in the list of medicines passed by previous task
-       - Note the exact product name, price, and delivery fee/timeline
-       - Check if there are any ongoing discounts or offers
-    
-    2. Open a new tab and go to PharmEasy(https://www.pharmeasy.in):
-       - Search for all medicine in the list of medicines passed by previous task
-       - Note the exact product name, price, and delivery fee/timeline
-       - Check if there are any ongoing discounts or offers
-    
+
+    1. Use go_to_url action to go to https://www.1mg.com
+      - Search for medicines in the list of previous task
+      - Extract product name, price, delivery info, and offers
+   
+    2. Use go_to_url action to go to https://www.pharmeasy.in  
+      - Search for medicines in the list of the previous task
+      - Extract product name, price, delivery info, and offers
+
     3. Compile a brief report with:
-       - A comparison table showing prices on all the platforms with the markdown format
-        
-    IMPORTANT: 
-    - Use new tabs in the existing browser window
-    - Do not actually complete any purchase
+      - A comparison table showing prices on all platforms in markdown format.
+
+    IMPORTANT:
+    - Always use go_to_url action for navigation, not generic instructions.
+    - Use new tabs in the existing browser window.
+    - Do not actually complete any purchase.
 
   expected_output: >
     A comprehensive and accurate medicine_data report should be generated, including:
@@ -45,9 +44,4 @@ gathering_data:
     - **Data Accuracy & Verification:** Ensure all collected information is verified for correctness and up-to-date at the time of collection.
 
 
-  agent:
-    data_collector    
-
-  markdown: true 
-
-  output_file: report.md
+  agent: data_collector    
