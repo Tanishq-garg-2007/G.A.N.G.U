@@ -4,6 +4,19 @@ from typing import List
 from crewai import LLM
 from pydantic import BaseModel
 from agents.tools.custom_tool import MyCustomTool
+from agents.face_recognize import face_recognice
+import os
+from dotenv import load_dotenv
+from crewai.knowledge.source.string_knowledge_source import StringKnowledgeSource
+from pathlib import Path
+
+load_dotenv()
+
+user_data = face_recognice()
+
+user_profile = StringKnowledgeSource(
+    content=f"User profile: Name: {user_data['Name']}, Age: {user_data['Age']}, Gender: {user_data['Gender']}, Allergies: {user_data['Allergies']}",
+)
 
 class PrescriptionOutput(BaseModel):
     Medicine: List[str]
@@ -24,19 +37,10 @@ class SpeechCrew:
     def doctor(self) -> Agent:
         return Agent(
             config=self.agents_config["doctor"],
-            verbose=True,
+            verbose=False,
             max_iter=1,
             llm=LLM(model="gemini/gemini-2.0-flash", temperature=0.2),
-        )
-
-    @agent
-    def data_collector(self) -> Agent:
-        return Agent(
-            config=self.agents_config["data_collector"],
-            tools=[self.price_comparison_tool],
-            verbose=True,
-            max_iter=1,
-            llm=LLM(model="gemini/gemini-2.0-flash", temperature=0.2),
+            knowledge_sources=[user_profile],
         )
 
     @task
@@ -46,23 +50,27 @@ class SpeechCrew:
             agent=self.doctor(),
             output_pydantic=PrescriptionOutput,
         )
-
-    @task
-    def gathering_data(self) -> Task:
-        return Task(
-            config=self.tasks_config["gathering_data"],
-            agent=self.data_collector(),
-            context=[self.medical_consultation()],
-            output_file="report.md",
-        )
-
+    
     @crew
     def crew(self) -> Crew:
+
+        os.environ["EMBEDDINGS_OLLAMA_MODEL_NAME"] = "mxbai-embed-large"
+        project_root = Path(__file__).parent
+        storage_dir = project_root / f"./medical_memory/{user_data['ID']}"
+        os.environ["CREWAI_STORAGE_DIR"] = str(storage_dir)
+
         return Crew(
             agents=self.agents,
             tasks=self.tasks,
-            process=Process.sequential,
-            verbose=True,
+            verbose = False,
+            memory=True,
+                embedder={
+                    "provider": "ollama",
+                    "config": {
+                        "model": "mxbai-embed-large", 
+                        "url": "http://localhost:11434/api/embeddings"
+                    }
+                }
         )
 
 @CrewBase
@@ -79,18 +87,8 @@ class FileCrew:
     def Medical_Data_Extractor(self) -> Agent:
         return Agent(
             config=self.agents_config["Medical_Data_Extractor"],
-            verbose=True,
+            verbose=False,
             llm=LLM(model="gemini/gemini-2.0-flash", temperature=0.1),
-        )
-    
-    @agent
-    def data_collector(self) -> Agent:
-        return Agent(
-            config=self.agents_config["data_collector"],
-            tools=[self.price_comparison_tool],
-            verbose=True,
-            max_iter=1,
-            llm=LLM(model="gemini/gemini-2.0-flash", temperature=0.2),
         )
     
     @task
@@ -101,20 +99,20 @@ class FileCrew:
             output_pydantic=PrescriptionOutput,
         )
     
-    @task
-    def gathering_data(self) -> Task:
-        return Task(
-            config=self.tasks_config["gathering_data"],
-            agent=self.data_collector(),
-            context=[self.medical_data()],
-            output_file="report.md",
-        )
-    
     @crew
     def crew(self) -> Crew:
+        os.environ["CREWAI_STORAGE_DIR"] = f"./medical_memory/{user_data['ID']}"
+
         return Crew(
             agents=self.agents,
             tasks=self.tasks,
-            process=Process.sequential,
-            verbose=True,
+            memory=True,
+            knowledge_sources=[user_profile],
+            embedder={
+                    "provider": "ollama",
+                    "config": {
+                        "model": "mxbai-embed-large", 
+                        "url": "http://localhost:11434/api/embeddings"
+                    }
+            }
         )
