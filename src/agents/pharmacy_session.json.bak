@@ -1,0 +1,2876 @@
+{
+    "cookies": [
+        {
+            "name": "cee",
+            "value": "7WgLLK8g6GIB6PGohwp3ltnRWZSEU8N%2FcQaBXVoh%2FfU%3D.%7B%7D",
+            "domain": ".mpc-prod-16-s6uit34pua-uk.a.run.app",
+            "path": "/events/d99d76edd15695ba0e155a2f214ffadd3c82a17828137d9c4442c2ea79247fa6",
+            "expires": 1768452530.960035,
+            "size": 60,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "VISITOR-ID",
+            "value": "ad916c17-ba7e-4cef-acb5-062965b72687_MTQXQP3hHZ_9355_1760675881828",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1795235882.465411,
+            "size": 76,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "abVisitorId",
+            "value": "142583",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1795236531.305351,
+            "size": 17,
+            "httpOnly": true,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "abExperimentShow",
+            "value": "false",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1795236531.305429,
+            "size": 21,
+            "httpOnly": true,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "amoSessionId",
+            "value": "c1807d0d-c52f-442c-bf46-727d304e34f9",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1760677682.466028,
+            "size": 48,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_csrf",
+            "value": "X85Lcde3Azg3cIF0Dp79z8ee",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": -1,
+            "size": 29,
+            "httpOnly": true,
+            "secure": false,
+            "session": true,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "isLocaleRedirect",
+            "value": "false",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": -1,
+            "size": 21,
+            "httpOnly": false,
+            "secure": false,
+            "session": true,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "isLocaleUIChange",
+            "value": "false",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": -1,
+            "size": 21,
+            "httpOnly": false,
+            "secure": false,
+            "session": true,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "jarvis-id",
+            "value": "847aeb2d-d177-4d08-af4f-0e23f36a0c41",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1795236530.437133,
+            "size": 45,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "rl_page_init_referrer",
+            "value": "RudderEncrypt%3AU2FsdGVkX1%2BlZ%2BA8CLwPckzqYbuS2%2BMhmYLAzyO0obQ%3D",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1792211883,
+            "size": 89,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "rl_page_init_referring_domain",
+            "value": "RudderEncrypt%3AU2FsdGVkX18U4VB0pi1ysr3RzzbadnoqSrSIczSkFdI%3D",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1792211883,
+            "size": 91,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_fbp",
+            "value": "fb.1.1760675885424.301355020354525598",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1768452530,
+            "size": 41,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "geolocation",
+            "value": "false",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1763268531.305268,
+            "size": 16,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "synapse-init",
+            "value": "false",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": -1,
+            "size": 17,
+            "httpOnly": false,
+            "secure": true,
+            "session": true,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "synapse-platform",
+            "value": "web",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": -1,
+            "size": 19,
+            "httpOnly": false,
+            "secure": true,
+            "session": true,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "is_cp_member",
+            "value": "false",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": -1,
+            "size": 17,
+            "httpOnly": false,
+            "secure": false,
+            "session": true,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "MgidSensorNVis",
+            "value": "1",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1768452433,
+            "size": 15,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "MgidSensorHref",
+            "value": "https://www.1mg.com/",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1768452433,
+            "size": 34,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "muidn",
+            "value": "p9gaQyH7AaCl",
+            "domain": ".mgid.com",
+            "path": "/",
+            "expires": 1792212434.904666,
+            "size": 17,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "MUID",
+            "value": "37B995034FB765961937838B4ED564D1",
+            "domain": ".bing.com",
+            "path": "/",
+            "expires": 1794371931.182382,
+            "size": 36,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "High",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "MR",
+            "value": "0",
+            "domain": ".bat.bing.com",
+            "path": "/",
+            "expires": 1761280690.379699,
+            "size": 3,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__gads",
+            "value": "ID=946f415e617875c6:T=1760675890:RT=1760676413:S=ALNI_Mbbm2pnD_RgoWyd_QvcgbTTuxW1fw",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1794371890,
+            "size": 89,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__gpi",
+            "value": "UID=0000129f76eb67d3:T=1760675890:RT=1760676413:S=ALNI_Mbwr9uz6AXkpNuNDNSuQcTHkrIxXQ",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1794371890,
+            "size": 89,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__eoi",
+            "value": "ID=cee4b63ee9af6a95:T=1760675890:RT=1760676413:S=AA-AfjZ-10Gudcy-pRGZZ3X4jRy9",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1776227890,
+            "size": 82,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_gcl_au",
+            "value": "1.1.1141287831.1760675890",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1768451890,
+            "size": 32,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "nv_userdevice",
+            "value": "15259185103pxsc8",
+            "domain": ".notifyvisitors.com",
+            "path": "/",
+            "expires": 1795236531.385855,
+            "size": 29,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "singular_device_id",
+            "value": "59cc3e2a-b1b0-460a-8f0c-926da8f30c4e",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1792212531,
+            "size": 54,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_nv_sess",
+            "value": "173339004.1760675892.4VXRSnEEikKbm1Vy2tjyoEMar1fYNFNMGLQ1TfyD4NhU1Plt58",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1760678331,
+            "size": 79,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_nv_uid",
+            "value": "173339004.1760675892.a30433af-2e84-4f8c-a59c-dce7609b7545.1760675892.1760675892.1.0",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1795236531.442434,
+            "size": 90,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_nv_utm",
+            "value": "173339004.1760675892.1.1.dXRtc3JjPShkaXJlY3QpfHV0bWNjbj0oZGlyZWN0KXx1dG1jbWQ9KG5vbmUpfHV0bWN0cj0obm90IHNldCl8dXRtY2N0PShub3Qgc2V0KXxnY2xpZD18dXRtYWRncD18bV91dG1zcmM9fG1fdXRtY2NuPXxtX3V0bWNtZD18bHA9aHR0cHM6Ly93d3cuMW1nLmNvbS8=",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1760678331,
+            "size": 232,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_nv_sess_uid",
+            "value": "173339004.1760675892.dXRtc3JjPShkaXJlY3QpfHV0bWNjbj0oZGlyZWN0KXx1dG1jbWQ9KG5vbmUpfHV0bWN0cj0obm90IHNldCl8dXRtY2N0PShub3Qgc2V0KXxnY2xpZD18dXRtYWRncD18dXJsPWh0dHBzOi8vd3d3LjFtZy5jb20v",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1768559893,
+            "size": 193,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_nv_did",
+            "value": "173339004.1760675892.15259185103pxsc8",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1795236531.442961,
+            "size": 44,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__adroll",
+            "value": "9aec6c348f73609a1a291317acac5674-a_1760675895",
+            "domain": ".d.adroll.com",
+            "path": "/",
+            "expires": 1794804532.032613,
+            "size": 53,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "receive-cookie-deprecation",
+            "value": "1",
+            "domain": ".d.adroll.com",
+            "path": "/",
+            "expires": 1794804532.032813,
+            "size": 27,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://1mg.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "receive-cookie-deprecation",
+            "value": "1",
+            "domain": ".adroll.com",
+            "path": "/",
+            "expires": 1794804532.032908,
+            "size": 27,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://1mg.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "__adroll_shared",
+            "value": "9aec6c348f73609a1a291317acac5674-a_1760675895",
+            "domain": ".adroll.com",
+            "path": "/",
+            "expires": 1794804532.033019,
+            "size": 60,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__adroll_fpc",
+            "value": "764b3072f463607a221b7e1c39f0c379-1760675895794",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1792234131,
+            "size": 58,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "dicbo_id",
+            "value": "%7B%22dicbo_fetch%22%3A1760676425506%7D",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1760676725,
+            "size": 47,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__ar_v4",
+            "value": "U4ZFS2QH4VB65A54O43AEQ%3A20251016%3A9%7C6PFMKMAZXFGFLMSXPCJHFF%3A20251016%3A9%7CKJTLL7NSNRFA5J3GVYGJVJ%3A20251016%3A9",
+            "domain": ".www.1mg.com",
+            "path": "/",
+            "expires": 1792212531,
+            "size": 124,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "g",
+            "value": "qiGTEGsW4G3wi0R4O6Bu_1760675896249",
+            "domain": ".creativecdn.com",
+            "path": "/",
+            "expires": 1792211896.385549,
+            "size": 35,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "c",
+            "value": "qiGTEGsW4G3wi0R4O6Bu_UXVDxjkzyjivJA3pPnzU_1760675896249",
+            "domain": ".creativecdn.com",
+            "path": "/",
+            "expires": 1792211896.385753,
+            "size": 56,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://1mg.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "ts",
+            "value": "1760675896",
+            "domain": ".creativecdn.com",
+            "path": "/",
+            "expires": 1792211896.3859,
+            "size": 12,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://1mg.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "AMP_TOKEN",
+            "value": "%24NOT_FOUND",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1760679496,
+            "size": 21,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_gid",
+            "value": "GA1.2.1840668579.1760675897",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1760762931,
+            "size": 31,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_dc_gtm_UA-21820217-6",
+            "value": "1",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1760676571,
+            "size": 22,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_gat_UA-21820217-6",
+            "value": "1",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1760676562,
+            "size": 19,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "TapAd_TS",
+            "value": "1760675897208",
+            "domain": ".tapad.com",
+            "path": "/",
+            "expires": 1765860532.270527,
+            "size": 21,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "TapAd_DID",
+            "value": "b04360bb-d440-4e73-b26b-325213fedb51",
+            "domain": ".tapad.com",
+            "path": "/",
+            "expires": 1765860532.270741,
+            "size": 45,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "pi",
+            "value": "3656227677836148763",
+            "domain": ".ml314.com",
+            "path": "/",
+            "expires": 1792212532.267908,
+            "size": 21,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "XANDR_PANID",
+            "value": "DcEbywQbTPdflviDqDS8BcUmi6UqfYZ-eCnga6rLo69ClMGCBU3E7KGf7iu6swOSLl3o2KYoEktBgzUCWxV-KPrDx0Dnyy5IJtkWKfzWwi8.",
+            "domain": ".adnxs.com",
+            "path": "/",
+            "expires": 1768452437.254414,
+            "size": 119,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://1mg.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "uuid2",
+            "value": "638683609130309427",
+            "domain": ".adnxs.com",
+            "path": "/",
+            "expires": 1768452437.254785,
+            "size": 23,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "TDID",
+            "value": "700ac538-7472-4122-ab8d-e2a28bcbdae2",
+            "domain": ".adsrvr.org",
+            "path": "/",
+            "expires": 1792211898.533979,
+            "size": 40,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "anj",
+            "value": "dTM7k!M40*dWIy(ghqdmU(7TIO#haC!A#Ev1yT)r)zw9O1<vpi%DlRm=Sona4fEhKDa=`+slNdcM2jKm:/<oCLxUCc47T7Xe<Hg9ZwG9z?hEazF=Ue04C9L?4C0f)k*N]@2875AJBeY9=jLdJg3>L@'t#ZIs<arq1W?16K:)Fa]eEMxa/y'tcd#A^e+.<Q!$6P/+_Xo@",
+            "domain": ".adnxs.com",
+            "path": "/",
+            "expires": 1768452437.254641,
+            "size": 203,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "TDCPM",
+            "value": "CAESFAoFdGFwYWQSCwiIkbztoNDGPhAFGAUgASgCMgsIqqvImLfQxj4QBTgB",
+            "domain": ".adsrvr.org",
+            "path": "/",
+            "expires": 1792211898.53426,
+            "size": 65,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "TapAd_3WAY_SYNCS",
+            "value": "1!6964-2!6964",
+            "domain": ".tapad.com",
+            "path": "/",
+            "expires": 1765860532.270823,
+            "size": 29,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "shw_13453",
+            "value": "1",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1760745599,
+            "size": 10,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_nv_banner_x",
+            "value": "13453",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1776227899,
+            "size": 17,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_nv_hit",
+            "value": "173339004.1760676531.cHZpZXc9OHxidmlldz1bIjEzNDUzIl0=",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1776444531,
+            "size": 60,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "receive-cookie-deprecation",
+            "value": "1",
+            "domain": ".doubleclick.net",
+            "path": "/",
+            "expires": 1776228561.7465,
+            "size": 27,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://1mg.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "IDE",
+            "value": "AHWqTUmn8-hU4tUOL31z53OfHk0dwzV_t3W5Nq-kYPDNjtQ_xwwDNAZJNKUA7O2tbkA",
+            "domain": ".doubleclick.net",
+            "path": "/",
+            "expires": 1795235901.958346,
+            "size": 70,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "uid",
+            "value": "0eccfa64-4081-487a-a76c-b2901145cd40",
+            "domain": ".criteo.com",
+            "path": "/",
+            "expires": 1794371906.219677,
+            "size": 39,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "cto_bundle",
+            "value": "z2KeSV9hS25wcUhaUzg5T09CWUlPamhudTV3Q0pvbVpHQXhka1BXMTluaEJJMGkwRnZaM2ZJNVR0dnZpRkpKbmkzS1FLVk1BSlBCMHVRRElMREwwSE9xJTJCWWZRNDZacUpjUmxldHBkSWo2TVFjOUtKRDlLVExqYXhSMWpoWlZubFllYkxUJTJGZ2pQc3ZDdHclMkZTSFRwRjZPSERLUXclM0QlM0Q",
+            "domain": ".criteo.com",
+            "path": "/",
+            "expires": 1794372595.755432,
+            "size": 233,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://apollopharmacy.in",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "cto_bundle",
+            "value": "_Tobz195eThnOTQxb2ZEaTE5RDlJU3M1cWszQlljRWtPN09iJTJCJTJGdlQ1RHlhblpmOSUyQkV2TUdxUXZac250TWRFZVVjdkNidWRKczBXT0o5RU1JMXZ5RmpsWGxIaHc3OFpIVEJXUlBCRjQ4OXZzTTdQVGc1b1AlMkZyZEdXWWl5YjZDWlQ4ZGVpV3l0UE12VVQxYjJxVTJoNjlTWng1ZyUzRCUzRA",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1794840532,
+            "size": 236,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "city",
+            "value": "Allahabad",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1763268531.294243,
+            "size": 13,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "session",
+            "value": "UkBh7TuZkelSXnFfELmFYA.V7L_p7OZfohSlQxdQX7gYhtD3mcZ1b2FPpxJyMk-4NEuOlO8x5sPPICR6XT12sjp-9SSysk3gEEDMc9BZJHQOKVRzc5UyK2PVh_KJtYQmHeg75yJEq3a8_GQok2-bbbcYGWN6oLjjtFpQ7sVGXsdjQwtWGzf5ywAjn4jDUqNmmA4UFzBzgBRrOUA_FKWqVthcj1wzcOU58svKieVfYJSiHdAAATIqm1T67RnA3zY_Vs9VqW2oyahJIm0QmG-oSsfh6UitM3qkV17gTI8OiCNgV1RlMowNIUufpKNI1K3K_c.1760675887775.144000000.FCUEvf4625eIE59oW8YQrK0s2YBjt8plmLMI3Q1Mt4c",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1760819888.193428,
+            "size": 397,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_uetsid",
+            "value": "15777100ab1311f0b58f5bfddfcd455e",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1760762931,
+            "size": 39,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_uetvid",
+            "value": "1577bd40ab1311f0beb2119b676cd326",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1794372531,
+            "size": 39,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga_1HF6RR2VT7",
+            "value": "GS2.1.s1760675892$o1$g1$t1760676581$j60$l0$h0",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1795236581.284383,
+            "size": 59,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga_NPGHGVF7FB",
+            "value": "GS2.1.s1760675892$o1$g1$t1760676581$j60$l0$h0",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1795236581.29558,
+            "size": 59,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.2.259445656.1760675893",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1795236531.402719,
+            "size": 29,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__rtbh.lid",
+            "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22ik9yzCHGI7VLASwrna5S%22%2C%22expiryDate%22%3A%222026-10-17T04%3A48%3A51.422Z%22%7D",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1792212531,
+            "size": 139,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "rl_user_id",
+            "value": "RudderEncrypt%3AU2FsdGVkX1%2BkV1W29r9Sk1OHJLDKq6wXRgG13eY8w2c%3D",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1792212531,
+            "size": 74,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "rl_trait",
+            "value": "RudderEncrypt%3AU2FsdGVkX19IzMphcx4lWw3DKt7Hp0LBIqv2Pb3%2F2o4%3D",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1792212531,
+            "size": 72,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "rl_group_id",
+            "value": "RudderEncrypt%3AU2FsdGVkX18m2g78umzxpNbntu2uIyWeR6kpdnK1Zn0%3D",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1792212531,
+            "size": 73,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "rl_group_trait",
+            "value": "RudderEncrypt%3AU2FsdGVkX18%2FIj%2F6raNS5GXO1vbyaU0KwdZEW1bxtCs%3D",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1792212531,
+            "size": 80,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "rl_anonymous_id",
+            "value": "RudderEncrypt%3AU2FsdGVkX1%2BO2S%2FT6540PDUDLJV%2FDH0Z0C19BciOVYuUGeZD2mpJ7OXODSFkqq%2BfEIUGkYFA697SpWGVC5753A%3D%3D",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1792212531,
+            "size": 131,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "AWSALBTG",
+            "value": "G1uDtrxtu3ssRIIzy+5VtJENcb4xOXOUDSsplGUdiLvMYEgFD+kki1tcbbjJQ1uFXzXGrFlneV5As1p8xrmXGN06HgGJe0kKtAoIJADy31yi24BId1cfnCgMcpWSldt3ALMvT1zo81KP1TmnUscQjSFXapw04FnvCe2+gQcE6VVH",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1761281331.304707,
+            "size": 180,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "AWSALBTGCORS",
+            "value": "G1uDtrxtu3ssRIIzy+5VtJENcb4xOXOUDSsplGUdiLvMYEgFD+kki1tcbbjJQ1uFXzXGrFlneV5As1p8xrmXGN06HgGJe0kKtAoIJADy31yi24BId1cfnCgMcpWSldt3ALMvT1zo81KP1TmnUscQjSFXapw04FnvCe2+gQcE6VVH",
+            "domain": "www.1mg.com",
+            "path": "/",
+            "expires": 1761281331.304993,
+            "size": 184,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "rl_session",
+            "value": "RudderEncrypt%3AU2FsdGVkX1%2Fi%2BLn8%2BEWe3Hl6036WMr7XnIlHUegmeJnWiObWlEOcJTbPzybe3KqH0jd5ieLmZDPMnyls27x%2BEvb3RFFPtwM0F7wY218yZUOb2l4MtE4vbqhSPk%2FGeTLkG3ZKYHZYDba5DKopu0FfVg%3D%3D",
+            "domain": ".1mg.com",
+            "path": "/",
+            "expires": 1792212531,
+            "size": 192,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "ar_debug",
+            "value": "1",
+            "domain": "measurement-api.criteo.com",
+            "path": "/",
+            "expires": -1,
+            "size": 9,
+            "httpOnly": true,
+            "secure": true,
+            "session": true,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "CMID",
+            "value": "aPHIWW4sBzMAPO-PCC42JAAA",
+            "domain": ".casalemedia.com",
+            "path": "/",
+            "expires": 1792212436.614502,
+            "size": 28,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "CMPS",
+            "value": "5540",
+            "domain": ".casalemedia.com",
+            "path": "/",
+            "expires": 1768451929.512348,
+            "size": 8,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "CMPRO",
+            "value": "5540",
+            "domain": ".casalemedia.com",
+            "path": "/",
+            "expires": 1768452436.614749,
+            "size": 9,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "tuuid",
+            "value": "cda5186a-42e1-4956-8cad-ae96a6421786",
+            "domain": ".bidswitch.net",
+            "path": "/",
+            "expires": 1792211929.951516,
+            "size": 41,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "c",
+            "value": "1760675929",
+            "domain": ".bidswitch.net",
+            "path": "/",
+            "expires": 1792211929.654534,
+            "size": 11,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "tuuid_lu",
+            "value": "1760675929",
+            "domain": ".bidswitch.net",
+            "path": "/",
+            "expires": 1792211929.951809,
+            "size": 18,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "criteo_dsp",
+            "value": "k-NNqrSkqE4KmcpSJmoVGUapHJFR224ehGZ7k4hQ",
+            "domain": ".adingo.jp",
+            "path": "/",
+            "expires": 1763267929.833335,
+            "size": 50,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "tuuid",
+            "value": "a5f35ca7-7e0d-4c2b-8e3f-e312bb528e52",
+            "domain": ".360yield.com",
+            "path": "/",
+            "expires": 1768451929.955581,
+            "size": 41,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "tuuid_lu",
+            "value": "1760675929",
+            "domain": ".360yield.com",
+            "path": "/",
+            "expires": 1768451929.955678,
+            "size": 18,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "pxrc",
+            "value": "CAA=",
+            "domain": ".rlcdn.com",
+            "path": "/",
+            "expires": 1765860436.966281,
+            "size": 8,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "SOC",
+            "value": "aPHIWcCo8XoAAL..AogAAAAA",
+            "domain": ".socdm.com",
+            "path": "/",
+            "expires": 1795236532.811671,
+            "size": 27,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "MR",
+            "value": "0",
+            "domain": ".c.bing.com",
+            "path": "/",
+            "expires": 1761280731.182675,
+            "size": 3,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "visitor-id",
+            "value": "4036775305488959000V10",
+            "domain": ".media.net",
+            "path": "/",
+            "expires": 1792211930.279957,
+            "size": 32,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "data-c",
+            "value": "k-oxYxnkqE4KmcpSJmoVGUapHJFR32bfTtElh_DA~~3",
+            "domain": ".media.net",
+            "path": "/",
+            "expires": 1763268436.94578,
+            "size": 49,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "UID",
+            "value": "eaea9238ff74cf9ed989579b328c8e3",
+            "domain": ".ads.stickyadstv.com",
+            "path": "/",
+            "expires": 1763268436.739973,
+            "size": 34,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "khaos",
+            "value": "MGUCZMRS-1G-3A9Z",
+            "domain": ".rubiconproject.com",
+            "path": "/",
+            "expires": 1792212436.925911,
+            "size": 21,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "khaos_p",
+            "value": "MGUCZMRS-1G-3A9Z",
+            "domain": ".rubiconproject.com",
+            "path": "/",
+            "expires": 1792212436.925995,
+            "size": 23,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://1mg.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "receive-cookie-deprecation",
+            "value": "1",
+            "domain": ".rubiconproject.com",
+            "path": "/",
+            "expires": 1768452436.926204,
+            "size": 27,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://1mg.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "pid",
+            "value": "5640960599388034813",
+            "domain": ".smartadserver.com",
+            "path": "/",
+            "expires": 1768451930.85403,
+            "size": 22,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "TestIfCookieP",
+            "value": "ok",
+            "domain": ".smartadserver.com",
+            "path": "/",
+            "expires": 1794890330.854227,
+            "size": 15,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "csync",
+            "value": "79:k-BQdkUUqE4KmcpSJmoVGUapHJFR3plSafPZ0zhw",
+            "domain": ".smartadserver.com",
+            "path": "/",
+            "expires": 1763268436.935016,
+            "size": 48,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "tt_viewer",
+            "value": "18e74bf8-b89f-4a3e-a24c-da619e6feb6f",
+            "domain": ".teads.tv",
+            "path": "/",
+            "expires": 1792125530.860599,
+            "size": 45,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "t_gid",
+            "value": "73f98ac4-76cf-4067-80cc-9fa46929a835-tuctfeb4dda",
+            "domain": ".taboola.com",
+            "path": "/",
+            "expires": 1792212436.963956,
+            "size": 53,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "t_pt_gid",
+            "value": "73f98ac4-76cf-4067-80cc-9fa46929a835-tuctfeb4dda",
+            "domain": ".taboola.com",
+            "path": "/",
+            "expires": 1792212436.964235,
+            "size": 56,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://1mg.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "_rxuuid",
+            "value": "%7B%22rx_uuid%22%3A%22RX-9f1f58ba-103c-4e82-a410-0778738c8753-004%22%7D",
+            "domain": ".1rx.io",
+            "path": "/",
+            "expires": 1792211931.508249,
+            "size": 78,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "tluidp",
+            "value": "2015472972375198658281",
+            "domain": ".3lift.com",
+            "path": "/",
+            "expires": 1768452437.130868,
+            "size": 28,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://1mg.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "tluid",
+            "value": "2015472972375198658281",
+            "domain": ".3lift.com",
+            "path": "/",
+            "expires": 1768452437.131155,
+            "size": 27,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_rxuuid",
+            "value": "%7B%22rx_uuid%22%3A%22RX-9f1f58ba-103c-4e82-a410-0778738c8753-004%22%7D",
+            "domain": ".targeting.unrulymedia.com",
+            "path": "/",
+            "expires": 1792212437.234292,
+            "size": 78,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_uid",
+            "value": "umg3644_7563735510385119652",
+            "domain": ".fwmrm.net",
+            "path": "/",
+            "expires": 1776227974.259048,
+            "size": 31,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "u",
+            "value": "aHR0cHM6Ly93d3cuMW1nLmNvbS8%3D",
+            "domain": ".ml314.com",
+            "path": "/",
+            "expires": 1760675987.976974,
+            "size": 31,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "udmts",
+            "value": "1760675973.0",
+            "domain": ".udmserve.net",
+            "path": "/",
+            "expires": 1792211973.984422,
+            "size": 17,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "dt",
+            "value": "0FF14A35-4575-3B15-9962-7E656D67512C",
+            "domain": ".udmserve.net",
+            "path": "/",
+            "expires": 1792211973.984661,
+            "size": 38,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "rtbh",
+            "value": "xO5di32tf22PsLzVwZGOoO_Ba-lMo-7avO8RaSRIBsY",
+            "domain": ".udmserve.net",
+            "path": "/",
+            "expires": 1768451973.984765,
+            "size": 47,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "um",
+            "value": "!38,FXwzX9hv2ar3v3yyyRGD9TaUpH16uqEo3nsI75-.3e8h.fCI2FyP1C9W8jfq884iHzmaSBDzDSlvoPHJ96FA179fXFo,1768452436",
+            "domain": ".360yield.com",
+            "path": "/",
+            "expires": 1768452436.740564,
+            "size": 108,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "umeh",
+            "value": "!38,0,1822884436,-1",
+            "domain": ".360yield.com",
+            "path": "/",
+            "expires": 1768452436.740863,
+            "size": 23,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "data-c-ts",
+            "value": "1760676436",
+            "domain": ".media.net",
+            "path": "/",
+            "expires": 1763268436.945999,
+            "size": 19,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "rlas3",
+            "value": "RrAIVo+wPhPA6WPibqZRRaHCK16kOfn/3pXrcm9IDa8=",
+            "domain": ".rlcdn.com",
+            "path": "/",
+            "expires": 1792212436.966076,
+            "size": 49,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "audit_p",
+            "value": "1|c+4VCjvx1ew6J9btFMNyaL/C5d+m17NJFE/BUKBiVvosb/G8dOk1YEMuaYu8R49sZtJVztT4MjEwHTRO1/p4iCck1N7K9KkV0dqlR5NoluSCD9zFQIvrTZ4FeFdPdQPZpzuDUX+PG4vK7m9kq3lXJmgO+S1h4Qwd/DnKp+cVQH516h2LKXkYaJDy+KCnXKr4N6JXMcYuiJM=",
+            "domain": ".rubiconproject.com",
+            "path": "/",
+            "expires": 1792212436.925482,
+            "size": 213,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://1mg.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "audit",
+            "value": "1|c+4VCjvx1ew6J9btFMNyaL/C5d+m17NJFE/BUKBiVvosb/G8dOk1YEMuaYu8R49sZtJVztT4MjEwHTRO1/p4iCck1N7K9KkV0dqlR5NoluSCD9zFQIvrTZ4FeFdPdQPZpzuDUX+PG4vK7m9kq3lXJmgO+S1h4Qwd/DnKp+cVQH516h2LKXkYaJDy+KCnXKr4N6JXMcYuiJM=",
+            "domain": ".rubiconproject.com",
+            "path": "/",
+            "expires": 1792212436.926125,
+            "size": 211,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "cee",
+            "value": "7WgLLK8g6GIB6PGohwp3ltnRWZSEU8N%2FcQaBXVoh%2FfU%3D.%7B%7D",
+            "domain": ".mpc-prod-16-s6uit34pua-uk.a.run.app",
+            "path": "/events/4ab8b2de2452ce04e62494b32726c51fe6f831253f495006c328b5fab71d052a",
+            "expires": 1768452806.638968,
+            "size": 60,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_gcl_au",
+            "value": "1.1.1434067177.1760676060",
+            "domain": ".apollopharmacy.in",
+            "path": "/",
+            "expires": 1768452060,
+            "size": 32,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "WZRK_G",
+            "value": "f12266ebe9fd42bd83d94ad1c4fc9386",
+            "domain": ".apollopharmacy.in",
+            "path": "/",
+            "expires": 1792212805,
+            "size": 38,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.1.1238240074.1760676060",
+            "domain": ".apollopharmacy.in",
+            "path": "/",
+            "expires": 1795236804.987329,
+            "size": 30,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "CLID",
+            "value": "bb9bb113f5874eab81cf384f94cebe04.20251017.20261017",
+            "domain": "www.clarity.ms",
+            "path": "/",
+            "expires": 1792212060.269179,
+            "size": 54,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_uetsid",
+            "value": "7b382640ab1311f097b6ed6acec30286",
+            "domain": ".apollopharmacy.in",
+            "path": "/",
+            "expires": 1760763205,
+            "size": 39,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_uetvid",
+            "value": "7b386e30ab1311f09031a58003685164",
+            "domain": ".apollopharmacy.in",
+            "path": "/",
+            "expires": 1794372805,
+            "size": 39,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_fbp",
+            "value": "fb.1.1760676061399.745479784888780175",
+            "domain": ".apollopharmacy.in",
+            "path": "/",
+            "expires": 1768452805,
+            "size": 41,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_clck",
+            "value": "uya4fy%5E2%5Eg08%5E0%5E2116",
+            "domain": ".apollopharmacy.in",
+            "path": "/",
+            "expires": 1792212061,
+            "size": 32,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "cto_bundle",
+            "value": "G1n-Dl9HWmJacCUyRjlFQmdTZHlCUlR4ejBWakxzVDhvcHl5ZkVVS1k4OFF2MHhSM2glMkZyMUY2WG85MzlFSVVvR1ZIUEhNVUdIblRPT0ExajcwaSUyQk1uYVNJZFZ4bWNWZGZ0dkE1QUtaN0pkQU5kM0slMkZFY1liYlVsJTJCeDFoSVVqdzBWN1FKU25nJTJGSzVhNml6MUlxZGIyeWVsc2tqME92Sm5iUDdvT2pXbzRtOTBYcHolMkJLQSUzRA",
+            "domain": ".apollopharmacy.in",
+            "path": "/",
+            "expires": 1794840595,
+            "size": 268,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_clsk",
+            "value": "9xltrs%5E1760676806989%5E7%5E0%5Eo.clarity.ms%2Fcollect",
+            "domain": ".apollopharmacy.in",
+            "path": "/",
+            "expires": 1760763206,
+            "size": 60,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "SRM_B",
+            "value": "37B995034FB765961937838B4ED564D1",
+            "domain": ".c.bing.com",
+            "path": "/",
+            "expires": 1794372064.580613,
+            "size": 37,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "SM",
+            "value": "C",
+            "domain": ".c.clarity.ms",
+            "path": "/",
+            "expires": -1,
+            "size": 3,
+            "httpOnly": false,
+            "secure": true,
+            "session": true,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "MUID",
+            "value": "37B995034FB765961937838B4ED564D1",
+            "domain": ".clarity.ms",
+            "path": "/",
+            "expires": 1794372063.809589,
+            "size": 36,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "High",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "MR",
+            "value": "0",
+            "domain": ".c.clarity.ms",
+            "path": "/",
+            "expires": 1761280863.809735,
+            "size": 3,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "ANONCHK",
+            "value": "0",
+            "domain": ".c.clarity.ms",
+            "path": "/",
+            "expires": 1760676663.809781,
+            "size": 8,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga_9CWW1XZBKT",
+            "value": "GS2.1.s1760676060$o1$g1$t1760676804$j60$l0$h0",
+            "domain": ".apollopharmacy.in",
+            "path": "/",
+            "expires": 1795236804.986472,
+            "size": 59,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "WZRK_S_679-WZ9-4W6Z",
+            "value": "%7B%22p%22%3A3%2C%22s%22%3A1760676059%2C%22t%22%3A1760676806%7D",
+            "domain": ".apollopharmacy.in",
+            "path": "/",
+            "expires": 1760678006,
+            "size": 82,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "BID",
+            "value": "E73DFBWXGYKWIE2F6CURY2GXQ",
+            "domain": ".toast.com",
+            "path": "/",
+            "expires": 1776228435.335686,
+            "size": 28,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "txpub_1570163526",
+            "value": "xO5di32tf22PsLzVwZGOoO_Ba-lMo-7avO8RaSRIBsY_:_EXP_:_1776228434_:_EXP_:_1760676434",
+            "domain": ".toast.com",
+            "path": "/",
+            "expires": 1776228435.335809,
+            "size": 97,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "txsync",
+            "value": "1760676434",
+            "domain": ".toast.com",
+            "path": "/",
+            "expires": 1776228435.335904,
+            "size": 16,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "BID",
+            "value": "E73DFBWXGYKWIE2F6CURY2GXQ",
+            "domain": ".nhnace.com",
+            "path": "/",
+            "expires": 1776228436.358441,
+            "size": 28,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "txpub_1570163526",
+            "value": "xO5di32tf22PsLzVwZGOoO_Ba-lMo-7avO8RaSRIBsY_:_EXP_:_1776228436_:_EXP_:_1760676436",
+            "domain": ".nhnace.com",
+            "path": "/",
+            "expires": 1776228436.358596,
+            "size": 97,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "txsync",
+            "value": "1760676436",
+            "domain": ".nhnace.com",
+            "path": "/",
+            "expires": 1776228436.358648,
+            "size": 16,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "TR",
+            "value": "1d859c2d74bb9802d2d358acf218d0236555a156586ab5d8",
+            "domain": ".send.microad.jp",
+            "path": "/",
+            "expires": 1768452512.780335,
+            "size": 50,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        }
+    ],
+    "origins": [
+        {
+            "origin": "https://www.1mg.com",
+            "localStorage": [
+                {
+                    "name": "tdl-sso-version",
+                    "value": "4.1.15"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_first_page_visit_url",
+                    "value": "https://www.1mg.com/"
+                },
+                {
+                    "name": "global_singular_id",
+                    "value": "59cc3e2a-b1b0-460a-8f0c-926da8f30c4e"
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "_Tobz195eThnOTQxb2ZEaTE5RDlJU3M1cWszQlljRWtPN09iJTJCJTJGdlQ1RHlhblpmOSUyQkV2TUdxUXZac250TWRFZVVjdkNidWRKczBXT0o5RU1JMXZ5RmpsWGxIaHc3OFpIVEJXUlBCRjQ4OXZzTTdQVGc1b1AlMkZyZEdXWWl5YjZDWlQ4ZGVpV3l0UE12VVQxYjJxVTJoNjlTWng1ZyUzRCUzRA"
+                },
+                {
+                    "name": "rudder.661b6417-58e9-4b89-8554-f16be24a2a02.ack",
+                    "value": "1760676562464"
+                },
+                {
+                    "name": "_gcl_ls",
+                    "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"creationTimeMs\":1760676059682},\"expires\":1768452059682}}"
+                },
+                {
+                    "name": "goog:cached:topics",
+                    "value": "[null,1760675890665,3]"
+                },
+                {
+                    "name": "pharmacySearch",
+                    "value": "{\"searched_term\":\"Dolomine 650 mg Tablet\",\"searched_source\":\"general\"}"
+                },
+                {
+                    "name": "WZRK_CAMP_G",
+                    "value": "%7B%22f12266ebe9fd42bd83d94ad1c4fc9386%22%3A%7B%22woc%22%3A%7B%7D%2C%22wndoc%22%3A%7B%7D%2C%22wi%22%3A%7B%7D%2C%22wp%22%3A%7B%7D%2C%22wsc%22%3A0%2C%22wndsc%22%3A0%7D%7D"
+                },
+                {
+                    "name": "WZRK_EV",
+                    "value": "%7B%22wzrk_fetch%22%3A%5B1%2C1760676059%2C1760676059%5D%2C%22Web%20Launch%20Source%20CT%22%3A%5B1%2C1760676060%2C1760676060%5D%2C%22address_action_v2%22%3A%5B3%2C1760676083%2C1760676111%5D%2C%22Pharmacy%20Enter%20Delivery%20Pincode%20Submitted%22%3A%5B1%2C1760676111%2C1760676111%5D%2C%22Pharmacy%20SearchKickoff%20Viewed%22%3A%5B2%2C1760676141%2C1760676197%5D%2C%22Pharmacy%20Search%22%3A%5B2%2C1760676143%2C1760676199%5D%2C%22Pharmacy%20Search%20enter%20clicked%22%3A%5B2%2C1760676144%2C1760676199%5D%2C%22Pharmacy%20listing%20page%20action%22%3A%5B2%2C1760676145%2C1760676200%5D%7D"
+                },
+                {
+                    "name": "_uetvid",
+                    "value": "7b386e30ab1311f09031a58003685164"
+                },
+                {
+                    "name": "lastExternalReferrer",
+                    "value": "empty"
+                },
+                {
+                    "name": "WZRK_G",
+                    "value": "%22f12266ebe9fd42bd83d94ad1c4fc9386%22"
+                },
+                {
+                    "name": "anonymousId",
+                    "value": "f49d0ab0-74d1-469e-8ea7-93b59eb5b908"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_singular_instance_id",
+                    "value": "2250c676-1565-48f6-8d2a-a426add9d4e5"
+                },
+                {
+                    "name": "rudder.661b6417-58e9-4b89-8554-f16be24a2a02.reclaimStart",
+                    "value": "null"
+                },
+                {
+                    "name": "removedSkuList",
+                    "value": ""
+                },
+                {
+                    "name": "preAuthToken",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGlmaWVyIjoiZTk1NDMyMTg2MzFjOWY0YjYwYjUxZGQ4NjAxMmNlZGEzM2EyM2I1MzgxNzJmNDQwNTY1MzI0OTNmNjU3YzZmOCIsImlzc3VlZEF0IjoxNzYwNjc2MDYwMTM0LCJkZXZpY2VJZCI6IkRlc2t0b3AiLCJpc3MiOiJBcG9sbG8yNDciLCJpYXQiOjE3NjA2NzYwNjAsImV4cCI6MTc2MDc2MjQ2MH0.i2LoCZDM62zWl0Bx4Lf8ruCRJ5pQ_vYLvT2Qo4egez0p4GF8_u5WJXpbJ6_aAw-rowwCH_Z0ccQQWbl-vdMPgWTE4q8SWaGsEGGF3QXPBDQFiKtbylkmgh3p-4kgqTrn2uCEn0MVhsL4Q7XnUvRo4z7D0qbY0PukoHd8CpjidtWLNVZAwNl5eWJ_JhsZ2PYCGq39X-lX7kEPOtaCVeAcn387pCzg3PE7lklJWI83D5qb-eWFCMIOi3lgdzvicHk9r7KwM9NrnX1GVzzzOSakAqPrvstubQYC96SbU9a80U1vqUUb0FIWSh407d2HJnr4gX9uvoJncioTuYAlZn68Cw"
+                },
+                {
+                    "name": "tdl-sso-redirect-tcp-flag",
+                    "value": "{\"isRedirectedFromTCP\":false,\"setAt\":1760676532814}"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_did_send_event.__PAGE_VISIT__",
+                    "value": "true"
+                },
+                {
+                    "name": "_uetsid",
+                    "value": "7b382640ab1311f097b6ed6acec30286"
+                },
+                {
+                    "name": "rudder.661b6417-58e9-4b89-8554-f16be24a2a02.reclaimEnd",
+                    "value": "null"
+                },
+                {
+                    "name": "lastExternalReferrerTime",
+                    "value": "1760676061384"
+                },
+                {
+                    "name": "_uetsid_exp",
+                    "value": "Sat, 18 Oct 2025 04:41:00 GMT"
+                },
+                {
+                    "name": "WZRK_NOTIFICATION_PUSH_DEFERRED",
+                    "value": "true"
+                },
+                {
+                    "name": "rudder.661b6417-58e9-4b89-8554-f16be24a2a02.inProgress",
+                    "value": "{}"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_singular_session_id",
+                    "value": "22f91746-ad21-4f46-925b-ef741ffc5509"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_touchpoint_timestamp",
+                    "value": "1760675893"
+                },
+                {
+                    "name": "_uetvid_exp",
+                    "value": "Wed, 11 Nov 2026 04:41:00 GMT"
+                },
+                {
+                    "name": "rudder.661b6417-58e9-4b89-8554-f16be24a2a02.queue",
+                    "value": "[]"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_web_url",
+                    "value": "https://www.1mg.com/"
+                },
+                {
+                    "name": "pharmaPincode",
+                    "value": "211015"
+                },
+                {
+                    "name": "tdl-sso-analytics-v2",
+                    "value": "{\"_id\":\"66fbb4822d2ce00eb13e4c9a\",\"urls\":[\"reqbin\",\"transaction\",\"orderConfirmation\",\"order-confirmation\",\"potential-order\"],\"bufferArrayLength\":0,\"bufferIntervalInSeconds\":5,\"bufferSizeInKb\":0,\"dataPublishEndpoint\":\"https://api.tatadigital.com/analytics-engine/events/v1\",\"sessionIdExpiresInS\":86400,\"redirectedFromTCPFlagExpiresInS\":86400,\"redisTtlInSeconds\":2592000,\"createdAt\":\"2023-05-11T08:21:54.108Z\",\"updatedAt\":\"2023-05-11T08:21:54.108Z\",\"__v\":0,\"customerHashValidityInS\":86400,\"eventToSendConfig\":[],\"recordAnalytics\":true,\"syncTrackingUrls\":[\"/v1/track\",\"/pharmacy_api/prescription-order\",\"/tracking_details?city\",\"/pharmacy_api/cart/summary\",\"/doctor_api/v5/conversations/\",\"/pharmacy_api/cart\",\"/pwa-api/cart/add\",\"/pwa-api/api/v4/carts/skus\",\"/pharmacy_api/v2/cart\",\"/labs_api/cart/replace\",\"/labs_api/cart/item\",\"/pwa-api/labs/cart/replace\",\"/v1/page\",\"labs_api/cart/validate\",\"/pwa-api/api/v4/orders\",\"/pharmacy_api/order\",\"/pwa-api/api/v4/carts/summary\",\"pharmacy_api/buy-now\",\"/pwa-api/api/v5/carts/skus\",\"/pwa-api/api/v4/carts/payment/offer/apply\"],\"cartAndWishListConfig\":{\"pwa-api/api/v4/carts/skus\":{\"type\":\"cart\",\"products\":[\"data\",\"brief\",\"items\"],\"keysToCapture\":{\"productId\":[\"sku_id\"],\"quantity\":[\"quantity\"],\"productName\":[\"sku_name\"],\"price\":[]}},\"pwa-api/api/v5/carts/skus\":{\"type\":\"cart\",\"products\":[\"data\",\"widgets\",\"1\",\"data\",\"grouped_items\",\"0\",\"items\"],\"keysToCapture\":{\"productId\":[\"cta\",\"details\",\"sku_id\"],\"quantity\":[\"cta\",\"details\",\"quantity\"],\"productName\":[\"header\"],\"price\":[\"analytics_data\",\"mrp\"]}}},\"recordGtmEvents\":true,\"dataLayerArgumentEventsToRecord\":[\"Remove Sku\"],\"dataLayerObjectEventsToRecord\":[\"Add To Cart\",\"Add To Cart \",\"Otc_upsell_widget_add\",\"Add To Cart Spotlight Products\",\"Add to cart widget\",\"Add to cart\",\"Remove SKU\",\"Remove Sku\",\"gtm.historyChange-v2\",\"gtm.load\",\"Delete test\",\"Add to Cart-Widget\",\"Remove Test\",\"Delete test widget\",\"newGAEvent\",\"Checkout\"],\"modifyHistoryOwnMethods\":true,\"recordWebVitals\":false,\"brand\":\"ONEMG\",\"keyToCheckLoginState\":[],\"browserEventsToRecord\":[\"click\"],\"listenToPastDataLayerEvents\":true,\"recordJsDispatchedClicks\":false,\"clientId\":\"ONEMG-WEB-APP\"}"
+                },
+                {
+                    "name": "MG_ConsentData",
+                    "value": "{\"consentData\":\"\",\"gdprApplies\":false,\"hasGlobalScope\":false}"
+                },
+                {
+                    "name": "WZRK_ACCOUNT_ID",
+                    "value": "%22679-WZ9-4W6Z%22"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_singular_first_page_visit_occurred",
+                    "value": "true"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_singular_custom_user_id",
+                    "value": "ad916c17-ba7e-4cef-acb5-062965b72687_MTQXQP3hHZ_9355_1760675881828"
+                },
+                {
+                    "name": "deliveryAddressId",
+                    "value": ""
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "{\"eventType\":\"lid\",\"id\":\"ik9yzCHGI7VLASwrna5S\",\"expiryDate\":\"2026-10-17T04:40:25.027Z\"}"
+                },
+                {
+                    "name": "WZRK_L",
+                    "value": "%7B%7D"
+                },
+                {
+                    "name": "Unique Session ID",
+                    "value": "08d74b80-5561-41f1-9fc6-4e696e27e508"
+                },
+                {
+                    "name": "topicsLastReferenceTime",
+                    "value": "1760676199626"
+                },
+                {
+                    "name": "WZRK_APPLICATION_SERVER_KEY_RECIEVED",
+                    "value": "true"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_last_event_timestamp",
+                    "value": "1760676025"
+                },
+                {
+                    "name": "WZRK_ARP",
+                    "value": "%7B%22j_n%22%3A%22Zw%3D%3D%22%2C%22i_n%22%3A%22YG1heAsJAQdm%22%2C%22d_ts%22%3A0%2C%22dh%22%3A0%2C%22v%22%3A2%2C%22j_s%22%3A%22%7B%7D%22%2C%22id%22%3A%22679-WZ9-4W6Z%22%2C%22r_ts%22%3A1760676059%7D"
+                },
+                {
+                    "name": "WZRK_META",
+                    "value": "%7B%22useIP%22%3Atrue%2C%22ps%22%3A1760676059%2C%22cs%22%3A1760676059%2C%22sc%22%3A1%7D"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_did_visit_site",
+                    "value": "true"
+                },
+                {
+                    "name": "tdl-sso-user-id",
+                    "value": "f49d0ab0-74d1-469e-8ea7-93b59eb5b908"
+                },
+                {
+                    "name": "tdl-sso-session-id",
+                    "value": "{\"sessionId\":\"4543dac3-23c5-4197-9f8d-85e785ea9ec8\",\"setAt\":1760676532814}"
+                },
+                {
+                    "name": "WZRK_BLOCK",
+                    "value": "false"
+                },
+                {
+                    "name": "pharmaAddressDetails",
+                    "value": "{\"state\":\"UTTAR PRADESH\",\"city\":\"Allahabad\",\"country\":\"\",\"pincode\":\"211015\",\"lat\":\"25.4356192\",\"lng\":\"81.7750672\",\"tatInput\":\"eyJoeXBlcmxvY2FsIjp7ImRzcHMiOnsiU0hJUFNZXzNQTCI6WzExMDc1LDExOTkyLDExMDc2LDExMjA1LDExMjc1LDEwMTA1XSwiU0hJUFNZX0VYUFJFU1MiOlsxMTA3NSwxMTk5MiwxMTA3NiwxMTIwNSwxMTI3NSwxMDEwNV0sIlNISVBTWV9OT0NIRUNLIjpbMTEwNzUsMTE5OTIsMTEwNzYsMTEyMDUsMTEyNzUsMTAxMDVdLCJTSElQU1lfU0xPVFRFRCI6WzExMDc1LDExOTkyLDExMDc2LDExMjA1LDExMjc1LDEwMTA1XSwiU0ZYX0VYUFJFU1MiOlsxMTk5MiwxMDEwNV19LCJyYWRpYWwiOltdfSwiY291cmllciI6eyJERUxISVZFUlkiOlsxMTk3MywxOTAxNSwxMjM1NywyNjEyMCwyNTc4NSwyNTkwNSwyNTkxNiwyNTkxNSwxMzkwMCwxODc5NSwxMDAyMywyNTg5OCwxODc4MCwxODc4MSwxODc1MiwxMDE0MywxODAzMSwxMDA5OCwxODgyOCwxODg0NSwyNjU2NCwxNTg5NiwyNjUwMCwyNzAwMSwxODk5MSwyNjgyOSwyNjgwNywxMTgwMSwxMjMwOSwxMjIzNCwxMzU1NF0sIlNISVBST0NLRVQiOlsxNjY5NSwxMjM1NywxODk5MSwxMTgwMSwxODgyOCwxMzU1NCwxOTAxNSwxODc4MCwxMjIzNCwxMDE0MywxMjM1OCwxMzkwMCwxMDAyMywxMjMwOSwxODc5NSwxODg0NSwxODc1MiwxODAzMSwxNTg5NiwxNTIzNSwxMTk3MywxODc4MV19LCJwb2x5Z29uZW5hYmxlZCI6dHJ1ZSwiaW5zdGFudFN0b3JlcyI6W119\"}"
+                },
+                {
+                    "name": "tneu.deviceInfo",
+                    "value": "{\"platform\":\"web\",\"deviceVersion\":\"0\"}"
+                },
+                {
+                    "name": "WZRK_CAMP",
+                    "value": "%7B%22woc%22%3A%7B%7D%2C%22wndoc%22%3A%7B%7D%2C%22wi%22%3A%7B%7D%2C%22wp%22%3A%7B%7D%2C%22wsc%22%3A0%2C%22wndsc%22%3A0%7D"
+                }
+            ],
+            "sessionStorage": [
+                {
+                    "name": "isRedirectedFromTCP",
+                    "value": "false"
+                },
+                {
+                    "name": "referrer",
+                    "value": "No referrer"
+                },
+                {
+                    "name": "serviceableCity",
+                    "value": "Allahabad"
+                },
+                {
+                    "name": "axdcCode",
+                    "value": "14916"
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "{\"eventType\":\"lid\",\"id\":\"ik9yzCHGI7VLASwrna5S\",\"expiryDate\":\"2026-10-17T04:40:25.027Z\"}"
+                },
+                {
+                    "name": "_fs_tab_id",
+                    "value": "1051a834b116150"
+                },
+                {
+                    "name": "userFromApp",
+                    "value": "PENDING"
+                },
+                {
+                    "name": "_nv_ath",
+                    "value": "uSX8Qg+z1+6IZj1nyKg8VVNxdG9Lam5zZnk1WWdwei9ieXRLb2VQU3VucFRuY2tJeGF2Z1hIMjNSTmtoR3haTDd5R05UUno5aWhmd1pBVnVyMm5ZUHU1cUF3NmdOUEp6N0ZWZW5GQ2lNRFBhOFBYUDQyVGRFL1c2SE80Y0ZqRENNTXQ4aGJkU2tBblJ6Ujd0YktDamVyQnpBOEFURTQ2UHRoMmQ3UT09"
+                },
+                {
+                    "name": "adroll_dqs",
+                    "value": "adroll_fpc=764b3072f463607a221b7e1c39f0c379-1760675895794&flg=1&pv=88018742436.989&arrfrr=https%3A%2F%2Fwww.1mg.com%2Fsearch%2Fall%3Fname%3DDolomine%2520650%2520mg%2520Tablet"
+                },
+                {
+                    "name": "AF_BANNERS_SESSION_ID",
+                    "value": "1760676060323"
+                },
+                {
+                    "name": "TEST_VALUE",
+                    "value": "false"
+                },
+                {
+                    "name": "adroll_flgs",
+                    "value": "1"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_singular_api_queue",
+                    "value": "[]"
+                },
+                {
+                    "name": "_nv_location",
+                    "value": "{\"country\":\"India\",\"city\":\"Machhlishahr\",\"region\":\"Uttar Pradesh\",\"code\":\"IN\",\"dial_code\":\"+91\",\"long\":\"82.416670\",\"lat\":\"25.683330\",\"region_code\":\"36\",\"lang\":\"hindi\",\"continent_code\":\"AS\",\"continent_name\":\"Asia\"}"
+                },
+                {
+                    "name": "_cltk",
+                    "value": "dczxt6"
+                }
+            ]
+        },
+        {
+            "origin": "https://www.apollopharmacy.in",
+            "localStorage": [
+                {
+                    "name": "tdl-sso-version",
+                    "value": "4.1.15"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_touchpoint_timestamp",
+                    "value": "1760675893"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_first_page_visit_url",
+                    "value": "https://www.1mg.com/"
+                },
+                {
+                    "name": "_uetvid_exp",
+                    "value": "Wed, 11 Nov 2026 04:53:25 GMT"
+                },
+                {
+                    "name": "global_singular_id",
+                    "value": "59cc3e2a-b1b0-460a-8f0c-926da8f30c4e"
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "e-zhbV9HWmJacCUyRjlFQmdTZHlCUlR4ejBWakxESVZIRmxBT2gwaFZ0MnNEek95Y0sxNUZHdjhJOFJJeG11bFdsSlF4bVdGTlhBWSUyQmxmb1hXcSUyQkg3eUg5JTJGYSUyRklqRWFIcnJEJTJGNkFNa3ByUHdNTUQwWDNIRHRiRzZGcGIyWjY2NlpKS051bThqWDE1UUJBTmVPdFpaQWYxZVJNJTJCdSUyRmZMZkZTOTBtcTVLcllhUGZBcDhRJTNE"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_web_url",
+                    "value": "https://www.1mg.com/"
+                },
+                {
+                    "name": "_gcl_ls",
+                    "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"creationTimeMs\":1760676059682},\"expires\":1768452059682}}"
+                },
+                {
+                    "name": "goog:cached:topics",
+                    "value": "[null,1760675890665,3]"
+                },
+                {
+                    "name": "pharmacySearch",
+                    "value": "{\"searched_term\":\"Dolomine 650 mg Tablet\",\"searched_source\":\"general\"}"
+                },
+                {
+                    "name": "pharmaPincode",
+                    "value": "211015"
+                },
+                {
+                    "name": "rudder.20be016d-6d2e-47d0-a500-eb85ff582fdd.inProgress",
+                    "value": "{}"
+                },
+                {
+                    "name": "rudder.20be016d-6d2e-47d0-a500-eb85ff582fdd.ack",
+                    "value": "1760676045800"
+                },
+                {
+                    "name": "WZRK_CAMP_G",
+                    "value": "%7B%22f12266ebe9fd42bd83d94ad1c4fc9386%22%3A%7B%22woc%22%3A%7B%7D%2C%22wndoc%22%3A%7B%7D%2C%22wi%22%3A%7B%7D%2C%22wp%22%3A%7B%7D%2C%22wsc%22%3A0%2C%22wndsc%22%3A0%7D%7D"
+                },
+                {
+                    "name": "tdl-sso-analytics-v2",
+                    "value": "{\"_id\":\"66fbb4822d2ce00eb13e4c9a\",\"urls\":[\"reqbin\",\"transaction\",\"orderConfirmation\",\"order-confirmation\",\"potential-order\"],\"bufferArrayLength\":0,\"bufferIntervalInSeconds\":5,\"bufferSizeInKb\":0,\"dataPublishEndpoint\":\"https://api.tatadigital.com/analytics-engine/events/v1\",\"sessionIdExpiresInS\":86400,\"redirectedFromTCPFlagExpiresInS\":86400,\"redisTtlInSeconds\":2592000,\"createdAt\":\"2023-05-11T08:21:54.108Z\",\"updatedAt\":\"2023-05-11T08:21:54.108Z\",\"__v\":0,\"customerHashValidityInS\":86400,\"eventToSendConfig\":[],\"recordAnalytics\":true,\"syncTrackingUrls\":[\"/v1/track\",\"/pharmacy_api/prescription-order\",\"/tracking_details?city\",\"/pharmacy_api/cart/summary\",\"/doctor_api/v5/conversations/\",\"/pharmacy_api/cart\",\"/pwa-api/cart/add\",\"/pwa-api/api/v4/carts/skus\",\"/pharmacy_api/v2/cart\",\"/labs_api/cart/replace\",\"/labs_api/cart/item\",\"/pwa-api/labs/cart/replace\",\"/v1/page\",\"labs_api/cart/validate\",\"/pwa-api/api/v4/orders\",\"/pharmacy_api/order\",\"/pwa-api/api/v4/carts/summary\",\"pharmacy_api/buy-now\",\"/pwa-api/api/v5/carts/skus\",\"/pwa-api/api/v4/carts/payment/offer/apply\"],\"cartAndWishListConfig\":{\"pwa-api/api/v4/carts/skus\":{\"type\":\"cart\",\"products\":[\"data\",\"brief\",\"items\"],\"keysToCapture\":{\"productId\":[\"sku_id\"],\"quantity\":[\"quantity\"],\"productName\":[\"sku_name\"],\"price\":[]}},\"pwa-api/api/v5/carts/skus\":{\"type\":\"cart\",\"products\":[\"data\",\"widgets\",\"1\",\"data\",\"grouped_items\",\"0\",\"items\"],\"keysToCapture\":{\"productId\":[\"cta\",\"details\",\"sku_id\"],\"quantity\":[\"cta\",\"details\",\"quantity\"],\"productName\":[\"header\"],\"price\":[\"analytics_data\",\"mrp\"]}}},\"recordGtmEvents\":true,\"dataLayerArgumentEventsToRecord\":[\"Remove Sku\"],\"dataLayerObjectEventsToRecord\":[\"Add To Cart\",\"Add To Cart \",\"Otc_upsell_widget_add\",\"Add To Cart Spotlight Products\",\"Add to cart widget\",\"Add to cart\",\"Remove SKU\",\"Remove Sku\",\"gtm.historyChange-v2\",\"gtm.load\",\"Delete test\",\"Add to Cart-Widget\",\"Remove Test\",\"Delete test widget\",\"newGAEvent\",\"Checkout\"],\"modifyHistoryOwnMethods\":true,\"recordWebVitals\":false,\"brand\":\"ONEMG\",\"keyToCheckLoginState\":[],\"browserEventsToRecord\":[\"click\"],\"listenToPastDataLayerEvents\":true,\"recordJsDispatchedClicks\":false,\"clientId\":\"ONEMG-WEB-APP\"}"
+                },
+                {
+                    "name": "MG_ConsentData",
+                    "value": "{\"consentData\":\"\",\"gdprApplies\":false,\"hasGlobalScope\":false}"
+                },
+                {
+                    "name": "WZRK_EV",
+                    "value": "%7B%22wzrk_fetch%22%3A%5B1%2C1760676059%2C1760676059%5D%2C%22Web%20Launch%20Source%20CT%22%3A%5B2%2C1760676060%2C1760676806%5D%2C%22address_action_v2%22%3A%5B3%2C1760676083%2C1760676111%5D%2C%22Pharmacy%20Enter%20Delivery%20Pincode%20Submitted%22%3A%5B1%2C1760676111%2C1760676111%5D%2C%22Pharmacy%20SearchKickoff%20Viewed%22%3A%5B2%2C1760676141%2C1760676197%5D%2C%22Pharmacy%20Search%22%3A%5B2%2C1760676143%2C1760676199%5D%2C%22Pharmacy%20Search%20enter%20clicked%22%3A%5B3%2C1760676144%2C1760676805%5D%2C%22Pharmacy%20listing%20page%20action%22%3A%5B3%2C1760676145%2C1760676806%5D%7D"
+                },
+                {
+                    "name": "WZRK_ACCOUNT_ID",
+                    "value": "%22679-WZ9-4W6Z%22"
+                },
+                {
+                    "name": "_uetvid",
+                    "value": "7b386e30ab1311f09031a58003685164"
+                },
+                {
+                    "name": "lastExternalReferrer",
+                    "value": "empty"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_singular_first_page_visit_occurred",
+                    "value": "true"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_singular_custom_user_id",
+                    "value": "ad916c17-ba7e-4cef-acb5-062965b72687_MTQXQP3hHZ_9355_1760675881828"
+                },
+                {
+                    "name": "WZRK_G",
+                    "value": "%22f12266ebe9fd42bd83d94ad1c4fc9386%22"
+                },
+                {
+                    "name": "anonymousId",
+                    "value": "f49d0ab0-74d1-469e-8ea7-93b59eb5b908"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_singular_instance_id",
+                    "value": "2250c676-1565-48f6-8d2a-a426add9d4e5"
+                },
+                {
+                    "name": "deliveryAddressId",
+                    "value": ""
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "{\"eventType\":\"lid\",\"id\":\"ik9yzCHGI7VLASwrna5S\",\"expiryDate\":\"2026-10-17T04:40:25.027Z\"}"
+                },
+                {
+                    "name": "removedSkuList",
+                    "value": ""
+                },
+                {
+                    "name": "WZRK_L",
+                    "value": "%7B%7D"
+                },
+                {
+                    "name": "tdl-sso-redirect-tcp-flag",
+                    "value": "{\"isRedirectedFromTCP\":false,\"setAt\":1760676026077}"
+                },
+                {
+                    "name": "rudder.20be016d-6d2e-47d0-a500-eb85ff582fdd.reclaimEnd",
+                    "value": "null"
+                },
+                {
+                    "name": "topicsLastReferenceTime",
+                    "value": "1760676805783"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_did_send_event.__PAGE_VISIT__",
+                    "value": "true"
+                },
+                {
+                    "name": "preAuthToken",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGlmaWVyIjoiNGRlNDZjMDVkNjM4NGViODA1MTJmMWM1ZGUzNzQ1YzBkNTcyMThhMzZiZTAzYjBhMDljOTU1OGMzZDQ0MmMzYyIsImlzc3VlZEF0IjoxNzYwNjc2ODA2MTE4LCJkZXZpY2VJZCI6IkRlc2t0b3AiLCJpc3MiOiJBcG9sbG8yNDciLCJpYXQiOjE3NjA2NzY4MDYsImV4cCI6MTc2MDc2MzIwNn0.TVJ5gPG8oJkAmdQ-QkcTgtuELStrsI5r05u2lni0nlpyQ6UxXBgTYFmE6ceedVcXnIhOpeAv-pIybGLvkiJjOSVKUzrtHfE7d8i57ECUANDmm3PzOx2VuOSGwSMhV6e1eAU8rtr4bqQU4ALoL-JXttBkDuiTD_r4LSZHwOICqZwFgPw8pPuxeJE3u4n7ExHm-BwozR9MoqcZQFX5BtbzG1LUR1bBXNdIaARfhi2n4CnUlMiXcBdZdHGrMWDH3XtGXoFpcaR2v9CeBDBIES8WDFE0_A4pE8juNFYVhYbbQcRtNryjfYjAmmTv3OlSOZoMIG8Bf1GqY7lDo8gDeXRCeQ"
+                },
+                {
+                    "name": "Unique Session ID",
+                    "value": "08d74b80-5561-41f1-9fc6-4e696e27e508"
+                },
+                {
+                    "name": "WZRK_APPLICATION_SERVER_KEY_RECIEVED",
+                    "value": "true"
+                },
+                {
+                    "name": "rudder.20be016d-6d2e-47d0-a500-eb85ff582fdd.reclaimStart",
+                    "value": "null"
+                },
+                {
+                    "name": "_uetsid",
+                    "value": "7b382640ab1311f097b6ed6acec30286"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_last_event_timestamp",
+                    "value": "1760676025"
+                },
+                {
+                    "name": "WZRK_ARP",
+                    "value": "%7B%22j_n%22%3A%22Zw%3D%3D%22%2C%22i_n%22%3A%22YG1heAsJAQdm%22%2C%22d_ts%22%3A0%2C%22dh%22%3A0%2C%22v%22%3A2%2C%22j_s%22%3A%22%7B%7D%22%2C%22id%22%3A%22679-WZ9-4W6Z%22%2C%22r_ts%22%3A1760676059%7D"
+                },
+                {
+                    "name": "WZRK_META",
+                    "value": "%7B%22useIP%22%3Atrue%2C%22ps%22%3A1760676059%2C%22cs%22%3A1760676059%2C%22sc%22%3A1%7D"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_did_visit_site",
+                    "value": "true"
+                },
+                {
+                    "name": "tdl-sso-user-id",
+                    "value": "f49d0ab0-74d1-469e-8ea7-93b59eb5b908"
+                },
+                {
+                    "name": "tdl-sso-session-id",
+                    "value": "{\"sessionId\":\"4543dac3-23c5-4197-9f8d-85e785ea9ec8\",\"setAt\":1760676026077}"
+                },
+                {
+                    "name": "lastExternalReferrerTime",
+                    "value": "1760676805768"
+                },
+                {
+                    "name": "WZRK_BLOCK",
+                    "value": "false"
+                },
+                {
+                    "name": "_uetsid_exp",
+                    "value": "Sat, 18 Oct 2025 04:53:25 GMT"
+                },
+                {
+                    "name": "WZRK_NOTIFICATION_PUSH_DEFERRED",
+                    "value": "true"
+                },
+                {
+                    "name": "rudder.20be016d-6d2e-47d0-a500-eb85ff582fdd.queue",
+                    "value": "[]"
+                },
+                {
+                    "name": "pharmaAddressDetails",
+                    "value": "{\"state\":\"UTTAR PRADESH\",\"city\":\"Allahabad\",\"country\":\"\",\"pincode\":\"211015\",\"lat\":\"25.4356192\",\"lng\":\"81.7750672\",\"tatInput\":\"eyJoeXBlcmxvY2FsIjp7ImRzcHMiOnsiU0hJUFNZXzNQTCI6WzExMDc1LDExOTkyLDExMDc2LDExMjA1LDExMjc1LDEwMTA1XSwiU0hJUFNZX0VYUFJFU1MiOlsxMTA3NSwxMTk5MiwxMTA3NiwxMTIwNSwxMTI3NSwxMDEwNV0sIlNISVBTWV9OT0NIRUNLIjpbMTEwNzUsMTE5OTIsMTEwNzYsMTEyMDUsMTEyNzUsMTAxMDVdLCJTSElQU1lfU0xPVFRFRCI6WzExMDc1LDExOTkyLDExMDc2LDExMjA1LDExMjc1LDEwMTA1XSwiU0ZYX0VYUFJFU1MiOlsxMTk5MiwxMDEwNV19LCJyYWRpYWwiOltdfSwiY291cmllciI6eyJERUxISVZFUlkiOlsxMTk3MywxOTAxNSwxMjM1NywyNjEyMCwyNTc4NSwyNTkwNSwyNTkxNiwyNTkxNSwxMzkwMCwxODc5NSwxMDAyMywyNTg5OCwxODc4MCwxODc4MSwxODc1MiwxMDE0MywxODAzMSwxMDA5OCwxODgyOCwxODg0NSwyNjU2NCwxNTg5NiwyNjUwMCwyNzAwMSwxODk5MSwyNjgyOSwyNjgwNywxMTgwMSwxMjMwOSwxMjIzNCwxMzU1NF0sIlNISVBST0NLRVQiOlsxNjY5NSwxMjM1NywxODk5MSwxMTgwMSwxODgyOCwxMzU1NCwxOTAxNSwxODc4MCwxMjIzNCwxMDE0MywxMjM1OCwxMzkwMCwxMDAyMywxMjMwOSwxODc5NSwxODg0NSwxODc1MiwxODAzMSwxNTg5NiwxNTIzNSwxMTk3MywxODc4MV19LCJwb2x5Z29uZW5hYmxlZCI6dHJ1ZSwiaW5zdGFudFN0b3JlcyI6W119\"}"
+                },
+                {
+                    "name": "tneu.deviceInfo",
+                    "value": "{\"platform\":\"web\",\"deviceVersion\":\"0\"}"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_singular_session_id",
+                    "value": "22f91746-ad21-4f46-925b-ef741ffc5509"
+                },
+                {
+                    "name": "WZRK_CAMP",
+                    "value": "%7B%22woc%22%3A%7B%7D%2C%22wndoc%22%3A%7B%7D%2C%22wi%22%3A%7B%7D%2C%22wp%22%3A%7B%7D%2C%22wsc%22%3A0%2C%22wndsc%22%3A0%7D"
+                }
+            ],
+            "sessionStorage": [
+                {
+                    "name": "isRedirectedFromTCP",
+                    "value": "false"
+                },
+                {
+                    "name": "referrer",
+                    "value": "No referrer"
+                },
+                {
+                    "name": "serviceableCity",
+                    "value": "Allahabad"
+                },
+                {
+                    "name": "axdcCode",
+                    "value": "14916"
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "{\"eventType\":\"lid\",\"id\":\"ik9yzCHGI7VLASwrna5S\",\"expiryDate\":\"2026-10-17T04:40:25.027Z\"}"
+                },
+                {
+                    "name": "_fs_tab_id",
+                    "value": "1051a834b116150"
+                },
+                {
+                    "name": "userFromApp",
+                    "value": "PENDING"
+                },
+                {
+                    "name": "_nv_ath",
+                    "value": "uSX8Qg+z1+6IZj1nyKg8VVNxdG9Lam5zZnk1WWdwei9ieXRLb2VQU3VucFRuY2tJeGF2Z1hIMjNSTmtoR3haTDd5R05UUno5aWhmd1pBVnVyMm5ZUHU1cUF3NmdOUEp6N0ZWZW5GQ2lNRFBhOFBYUDQyVGRFL1c2SE80Y0ZqRENNTXQ4aGJkU2tBblJ6Ujd0YktDamVyQnpBOEFURTQ2UHRoMmQ3UT09"
+                },
+                {
+                    "name": "adroll_dqs",
+                    "value": "adroll_fpc=764b3072f463607a221b7e1c39f0c379-1760675895794&flg=1&pv=11193464691.407202&arrfrr=https%3A%2F%2Fwww.1mg.com%2Fsearch%2Fall%3Fname%3DDolomine%2520650%2520mg%2520Tablet"
+                },
+                {
+                    "name": "AF_BANNERS_SESSION_ID",
+                    "value": "1760676060323"
+                },
+                {
+                    "name": "TEST_VALUE",
+                    "value": "false"
+                },
+                {
+                    "name": "adroll_flgs",
+                    "value": "1"
+                },
+                {
+                    "name": "ikshit_www.1mg.com_singular_api_queue",
+                    "value": "[]"
+                },
+                {
+                    "name": "_nv_location",
+                    "value": "{\"country\":\"India\",\"city\":\"Machhlishahr\",\"region\":\"Uttar Pradesh\",\"code\":\"IN\",\"dial_code\":\"+91\",\"long\":\"82.416670\",\"lat\":\"25.683330\",\"region_code\":\"36\",\"lang\":\"hindi\",\"continent_code\":\"AS\",\"continent_name\":\"Asia\"}"
+                },
+                {
+                    "name": "_cltk",
+                    "value": "dczxt6"
+                }
+            ]
+        }
+    ]
+}
