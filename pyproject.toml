@@ -9,16 +9,19 @@ dependencies = [
     "beautifulsoup4>=4.12.0",
     "browser-use>=0.8.1",
     "crewai[tools]>=0.201.1,<1.0.0",
+    "fastapi>=0.123.9",
     "google-generativeai>=0.8.5",
     "pillow>=11.3.0",
     "playwright>=1.40.0",
     "pydantic>=2.0.0",
+    "pyngrok>=7.5.0",
     "pytesseract>=0.3.13",
     "pytest>=7.4.0",
     "python-dotenv>=1.0.0",
     "requests>=2.31.0",
     "scipy>=1.15.3",
     "sounddevice>=0.5.2",
+    "twilio>=9.8.8",
 ]
 
 [project.scripts]

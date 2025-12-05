@@ -3,6 +3,7 @@ from scipy.io.wavfile import write
 from dotenv import load_dotenv
 import os
 import assemblyai as aai
+import websockets
 
 load_dotenv()
 API_KEY = os.getenv("ASSEMBLY_API_KEY")
@@ -33,3 +34,14 @@ def speech_to_text(duration=5):
     text = transcribe_audio(filename)
     return text  # This can be imported and used in other files
 
+async def connect_assemblyai():
+    ws = await websockets.connect(
+        "wss://streaming.assemblyai.com/v3/ws?sample_rate=8000&encoding=pcm_mulaw",
+        additional_headers={"Authorization": API_KEY}
+    )
+    print("Connected to AssemblyAI Realtime API (V3)")
+    return ws
+
+    
+async def send_audio(ws, audio_chunk):
+    await ws.send(audio_chunk)
