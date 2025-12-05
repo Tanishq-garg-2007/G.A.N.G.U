@@ -3,7 +3,6 @@ from crewai.project import CrewBase, agent, crew, task
 from typing import List
 from crewai import LLM
 from pydantic import BaseModel
-from agents.tools.custom_tool import MyCustomTool
 from agents.face_recognize import face_recognice
 import os
 from dotenv import load_dotenv
@@ -30,8 +29,7 @@ class SpeechCrew:
     agents_config = 'config/speech_agent.yaml'
     tasks_config = 'config/speech_task.yaml'
 
-    def __init__(self):
-        self.price_comparison_tool = MyCustomTool()
+
 
     @agent
     def doctor(self) -> Agent:
@@ -80,9 +78,6 @@ class FileCrew:
     agents_config = 'config/file_agent.yaml'
     tasks_config = 'config/file_task.yaml'
 
-    def __init__(self):
-        self.price_comparison_tool = MyCustomTool()
-
     @agent
     def Medical_Data_Extractor(self) -> Agent:
         return Agent(
@@ -116,3 +111,4 @@ class FileCrew:
                     }
             }
         )
+    
