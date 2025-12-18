@@ -63,6 +63,31 @@ def summarize_conversation(full_history: list):
     """
     
     try:
+        model = genai.GenerativeModel("gemini-2.5-flash")
+        response = model.generate_content(prompt)
+        return response.text.strip()
+    except Exception as e:
+        return f"Failed to summarize: {e}"
+    
+def general_question(que: str):
+    """
+    Takes the general que and answer them
+    """
+
+    prompt = f"""
+    You are an expert family. Summarize the following phone call conversation.
+    
+    --- TRANSCRIPT ---
+    {que}
+    ------------------
+    
+    Please provide:
+    1. The main goal of the caller.
+    2. The outcome (Was an appointment booked? When?).
+    3. Any follow-up actions required.
+    """
+    
+    try:
         model = genai.GenerativeModel("gemini-2.0-flash")
         response = model.generate_content(prompt)
         return response.text.strip()

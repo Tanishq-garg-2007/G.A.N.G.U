@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 import sys
-from agents.crew import SpeechCrew, FileCrew
+from agents.crew import SpeechCrew, FileCrew, Nearbyhospitals ,general_que
 from agents.speech_to_text import speech_to_text
 from agents.file_to_text import file_to_text
 from agents.buying_agent import run_comparison
 from datetime import datetime
 from agents.Calling import start_call
+from agents.face_recognize import face_recognice
+
 import asyncio
 
 def run(statement=None):
@@ -20,11 +22,10 @@ def run(statement=None):
         result = SpeechCrew().crew().kickoff(inputs={"statement": f"[{timestamp}] {statement}"})
         
         print(result)
-        print(result.pydantic.Medicine)
         move_next = input("Do you want to extract medicine data from different platforms? (yes/no): ").strip().lower()
         if move_next == "yes":
             print("\nStarting price comparison...")
-            asyncio.run(run_comparison(result.pydantic.Medicine))
+            asyncio.run(run_comparison(result.pydantic.name))
             print("\nComparison complete! Check grocery_purchase_results/report.md")
         else:
             print("Have a nice day!")
@@ -35,11 +36,11 @@ def run(statement=None):
         result = FileCrew().crew().kickoff(inputs={"statement": f"[{timestamp}] {statement}"})
 
         print(result)
-        print(result.pydantic.Medicine)
+
         move_next = input("Do you want to extract medicine data from different platforms? (yes/no): ").strip().lower()
         if move_next == "yes":
             print("\nStarting price comparison...")
-            asyncio.run(run_comparison(result.pydantic.Medicine))
+            asyncio.run(run_comparison(result.pydantic.name))
             print("\nComparison complete! Check grocery_purchase_results/report.md")
         else:
             print("Have a nice day!")
@@ -53,6 +54,33 @@ def run(statement=None):
 
         start_call(number,disease,doctor_name,Availablity)
 
+    elif choice == "4":
+        user_profile = face_recognice()
+        city = user_profile["City"]
+        state = user_profile["State"]
+        
+        inputs = {
+            "city" : city,
+            "state" : state,
+            "country" : "India",
+            "limit" : 5
+        }
+
+        result = Nearbyhospitals().crew().kickoff(inputs=inputs)
+
+        print("Hospital Found: ")
+        if isinstance(result, list):
+            for i, hospital in enumerate(result, start=1):
+                print(f"{i}. {hospital}")
+        else:
+            print(result)
+
+    elif choice == "5":
+        question = speech_to_text(duration=5)
+
+        result = general_que().crew().kickoff(inputs={"question" : question})
+        print(result)
+        
     else:
         return "Please Enter A Valid Choice"
 

@@ -1,0 +1,8 @@
+User Profile:
+Name: tanishq
+Age: 12
+Gender: female
+Allergies: chicken
+City: allahabad
+State: uttar pradesh
+Email: tanishqgarg@gmail.com

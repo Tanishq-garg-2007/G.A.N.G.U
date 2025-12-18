@@ -1,0 +1,8 @@
+User Profile:
+Name: Tanishq Garg
+Age: 18
+Gender: Male
+Allergies: Back pain
+City: Gharaunda
+State: Haryana
+Email: iit2024038@gmail.com

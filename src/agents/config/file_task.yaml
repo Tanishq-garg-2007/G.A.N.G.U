@@ -1,15 +1,68 @@
 medical_data:
   description: >
-    You have the raw handwritten data : {statement} . 
-    Your aim is to find the neccasary details like Medicine Names , dosage of the medicine and any precaution from the raw data.
-    Present the extracted information in a clear, structured format. 
-    Only include information explicitly present in the text and avoid adding assumptions.
-    Focus on accuracy, clarity, and completeness.
+    Analyze the raw medical data: "{statement}".
+    
+    Your task is to convert this unstructured text into a structured list of calendar events.
+    
+    1. **Identity Extraction:**
+       - Find the Patient Name. Use this exact string as the `user_id`.
+    
+    2. **Medicine Extraction (Iterate for EVERY medicine found):**
+       - Extract the Medicine Name.
+       - Extract the dosage instructions (e.g., "Take after food").
+    
+    3. **Time Calculation (CRITICAL):**
+       - You must generate valid ISO 8601 timestamps (YYYY-MM-DDTHH:MM:SS).
+       - Assume the **Start Date is TOMORROW**.
+       - If the text says "Morning" or "Once a day", set `start_time` to 09:00:00.
+       - If the text says "Evening", set `start_time` to 20:00:00.
+       - If the text says "Twice a day", create separate entries if possible, or pick the next logical slot.
+       - Set `end_time` exactly 15 minutes after `start_time`.
+    
+    4. **Formatting:**
+       - Ensure the output matches the 'PrescriptionOutput' schema strictly.
 
-  expected_output: >
+  expected_output: >  
     A fully structured and medical prescription in a consistent and english format,keeping the prescription small and direct containing:
-      - List of recommended medicines
-      - For how many days we have to take the specific medicine and in a particular day how many times we have to take it
-      - precaution in taking the medicine like maximum consumption etc.
+      - The patient name from the profile text knowledge source and that  is used as user_id parameter.
+      - Medicine List that is most suited to cure the symptoms and the name in the List should be as exact as it is on ecommerce platform
+      - Start time in ISO 8601 format (e.g., '2025-12-08T10:00:00') at which the medicine should be taken 
+      - End time in ISO 8601 format (e.g., '2025-12-08T10:15:00') generally 15 minute after the start time only 
+      - Dosage instructions like to take before meal or after or any other neccasary details
+    
 
   agent: Medical_Data_Extractor
+  
+care_task:
+  description: >
+    You are the Medical Scheduler. Your goal is to schedule medication reminders on Google Calendar based on the doctor's prescription.
+
+    Step 1: Establish Identity
+    - Extract the Patient's Name from the profile text knowledge source.
+    - Use the extracted Name as the 'user_id' parameter. This ensures events are created on their specific calendar account.
+
+    Step 2: Parse & Schedule (Iterate for EACH medicine)
+    Analyze the prescription. For every unique medication, perform the following:
+    
+    1. Calculate Timing:
+    - Read the frequency/time (e.g., 'Daily at 8:00 AM').
+    - Calculate the Next Occurrence date and time starting from tomorrow.
+    - Convert this into ISO 8601 format (e.g., '2025-12-09T08:00:00'). This is your 'start_time'.
+
+    2. Execute Tool:
+    - Use the GoogleCalendarTool.
+    - user_id: The ID extracted in Step 1.
+    - summary: 'Take [Medicine Name] - [Dosage]'.
+    - start_time: The ISO string calculated above.
+    - end_time: The ISO string calculated above.
+    - description: Any special instructions (e.g., 'Take after food').
+
+    Step 3: Verification
+    - Ensure that if Medicine A is at 9am and Medicine B is at 8pm, two separate API calls are made with different timestamps.
+
+  expected_output: >
+    A final report listing:
+    1. The user_id used for the file generation.
+    2. A summary of every event created, including the specific ISO timestamps sent to the tool.
+
+  agent: care_coordinator

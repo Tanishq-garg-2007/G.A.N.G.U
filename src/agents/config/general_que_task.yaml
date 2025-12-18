@@ -1,0 +1,11 @@
+general_health_assistance_task:
+  description: >
+    Receive user question : {question} about their health, nutrition,
+    fitness, or wellness, and provide a clear, empathetic, and
+    actionable answer based on safe, general health knowledge.
+    If the question sounds medical or severe, advise consulting
+    a healthcare professional instead of diagnosing.
+  expected_output: >
+    A short ( 5-6 lines) conversational response that gives helpful, balanced advice
+    while maintaining a warm and supportive tone.
+  agent: home_health_assistant

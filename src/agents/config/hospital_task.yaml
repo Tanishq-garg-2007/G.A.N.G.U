@@ -1,0 +1,15 @@
+research_task:
+  description: >
+    Search for top hospitals in the given city:{city}, state:{state}, and country:{country}.
+  expected_output: >
+    A list of hospitals with name and address.
+  agent: hospital_finder
+  markdown: true
+
+reporting_task:
+  description: >
+    Summarize the hospital data into a short report.
+  expected_output: >
+    A concise report of hospital names and addresses.
+  agent: hospital_reporter
+  markdown : true

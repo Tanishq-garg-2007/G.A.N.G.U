@@ -158,4 +158,3 @@ def start_call(number,disease,doctor_name,Availablity):
     threading.Thread(target=start_call_sequence, args=(number,), daemon=True).start()
 
     uvicorn.run(app, host="127.0.0.1", port=port)
-
