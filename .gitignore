@@ -2,4 +2,4 @@
 __pycache__/
 .DS_Store
 src/agents/tools/token_*.json
-
+src/agents/tools/credentials.json
