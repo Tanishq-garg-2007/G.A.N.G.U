@@ -2,4 +2,6 @@
 __pycache__/
 .DS_Store
 src/agents/tools/token_*.json
+src/agents/tools/token_Tanishq Garg.json
 src/agents/tools/credentials.json
+.env
